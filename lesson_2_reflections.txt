@@ -10,3 +10,6 @@ A. haven't been introduced to branching yet so I would commit each logical chang
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A. When I'm wanting to add different features to a project that I'm not sure if I'll use to delete then I can use a branch to figure out the changes before finalizing them.
 
+How do the diagrams help you visualize the branch structure?
+A. It shows which the linear master branch and all the other branches that are stemming from it. It also helps to see if there's un-reachability to a branch/commit.
+

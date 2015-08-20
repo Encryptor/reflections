@@ -4,3 +4,9 @@ How is the staging area different from the working directory and the repository?
 
 A. Staging area contains the changes that have been made to the working directory but arent' present in the repository. It provides a medium between the two.
 
+How can you use the staging area to make sure you have one commit per logical change?
+A. haven't been introduced to branching yet so I would commit each logical change seperately
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A. When I'm wanting to add different features to a project that I'm not sure if I'll use to delete then I can use a branch to figure out the changes before finalizing them.
+

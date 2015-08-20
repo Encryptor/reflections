@@ -55,6 +55,39 @@ git config --global color.ui auto // to show diffs in color
 
 --) git checkout branch_name // to checkout a branch. makes this branch the current checked 	out branch
 
+--) a common workflow for people working together on a project is to make a new branch for 
+	each feature or bug fix. then when the new bug is fixed the user can either
+	update the master to point to the tip of the new branch or if changes have also
+	been made to master then both changes can be merged.
+
+--) git log --graph --oneline branch_name branch_name // to visualize branch structure. I
+	can add 1 or n branch_names
+
+--) git checkout -b new_branch_name // shortcut to create a branch and checkout it out at 	the same time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

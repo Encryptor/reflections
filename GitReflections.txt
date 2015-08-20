@@ -1,0 +1,39 @@
+--) git command line commands
+
+git log --stat // shows git log and gives statistics about which files have changed in each commit
+	       // green '+' indicated addition and red '-' indicates deletion. The number of +'s and -'s
+	       // are proportional to the changes
+
+git diff id#1 id#2 // to diff between 2 ids
+
+git --version // to check git version installed
+
+git clone URL // to clone a repository
+
+git config --global color.ui auto // to show diffs in color
+
+--) Repositories are part of Git and commits are part of repository
+
+--) Clone takes an existing repository and creates a new one just like it
+
+--) Log shows the commits in the repository prior to the current commit
+
+--) a commit is a snapshot of a Git repository
+
+--) git checkout means resetting all files to how they were at the time the commit was made
+
+--) HEAD is git's terminology for the current commit
+
+--) git status // shows which files have chaning since the last commit
+
+--) git has a staging area to which I can add files one at a time. then when ready to 	commit, Git adds the entire contents of the staging area and makes one commit
+
+--) git add filename // to add files to the staging area, ready to be committed
+
+
+
+
+
+
+
+

@@ -26,9 +26,34 @@ git config --global color.ui auto // to show diffs in color
 
 --) git status // shows which files have chaning since the last commit
 
---) git has a staging area to which I can add files one at a time. then when ready to 	commit, Git adds the entire contents of the staging area and makes one commit
+--) git has a staging area to which I can add files one at a time. then when ready to 		commit, Git adds the entire contents of the staging area and makes one commit
 
 --) git add filename // to add files to the staging area, ready to be committed
+
+--) git commit -m "Commit message" // make a commit and add a message to it
+
+--) git diff // compares working directory to the staging area
+
+--) git diff --staged // compares staging area to commit1 (which is the most recent commit)
+
+--) git checkout master // checks out master branch
+
+--) master is the name given to the main branch. and every time I create a repository, Git 	creates a master branch for me.
+
+--) I can label(name) each branch (other than the master). Preferrable the name is 		descriptive
+
+
+--) detached head error message means I'm looking at a commit that is not labeled with a 		branch name (So in this state I'm either on a master branch on in a detached head 		branch)
+
+--) tip of a branch refers to the most recent commit 
+
+--) It is possible to check out a branch, similar to a commit
+
+--) merging is the process of combining 2 commits
+
+--) git branch // shows current branches
+
+--) git checkout branch_name // to checkout a branch. makes this branch the current checked 	out branch
 
 
 

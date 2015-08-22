@@ -23,3 +23,10 @@ being that this causes accurate merges.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A. I could be working on changes locally that would make more sense to merge in. They might not work quite well if Git keeps pulling from a remote repository. The authenticity of my project can't be gauranteed.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A. Forks - allow to copy a repo right on GitHub servers without pulling it locally, while still maintaining a connection with the original creator. This is used when I want to credit the original contributor and commit to their product versus creating it in a product of my own.
+
+Clone - allows to pull down a repo locally without any connection to the original creator. This is used when I don't need any connection to the original creator and I want to create my own product.
+
+Branch - a local copy of an entire repo. This is useful when I want to experiment or add a new feature to the repo without affecting the original repo.
+

@@ -13,3 +13,13 @@ A. When I'm wanting to add different features to a project that I'm not sure if 
 How do the diagrams help you visualize the branch structure?
 A. It shows which the linear master branch and all the other branches that are stemming from it. It also helps to see if there's un-reachability to a branch/commit.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A. To merge changes made in two different branches to the same master branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A. Pro being that it does the work for the developer. Con being that it the developer has to do work. Pro
+being that this causes accurate merges.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A. I could be working on changes locally that would make more sense to merge in. They might not work quite well if Git keeps pulling from a remote repository. The authenticity of my project can't be gauranteed.
+

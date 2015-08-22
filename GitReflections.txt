@@ -65,8 +65,16 @@ git config --global color.ui auto // to show diffs in color
 
 --) git checkout -b new_branch_name // shortcut to create a branch and checkout it out at 	the same time
 
+--) git log -n 1 // git will only show 1 number of commit. 1 can be any number
 
+--) Branches are really just labels that refer to commits
 
+--) git remote // to view all the remotes
+
+--) git remote add origin 'URL' // to add the repo on GitHub, origin is a standard for new 	repos (add 
+https:// vs ssh if you don't have ssh set up on your system)
+
+--)
 
 
 

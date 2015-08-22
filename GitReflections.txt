@@ -74,7 +74,24 @@ git config --global color.ui auto // to show diffs in color
 --) git remote add origin 'URL' // to add the repo on GitHub, origin is a standard for new 	repos (add 
 https:// vs ssh if you don't have ssh set up on your system)
 
---)
+--) Forking // allows to make a copy of someone else's repository, right on GitHub servers
+	without pulling the repo down to your local machine. (This allows to give credit to
+	the original creator). You can fork a repo and have it appear under my own account
+	with just a single click on GitHub. Then to make modifications, you can likely pull
+	down the code on to your machine (unless files are simple and modifications can be
+	made on GitHub).
+	Forking is a lot like cloning. In fact a Fork is just a Clone that GitHub makes for 	you on their machines. Forks all link back to the original. It also makes it easier
+	to suggest changes back to the original repo.
+
+--) When you Clone a repo, Git automatically set up a remote pointing to the repo you 
+	Cloned from. (check with git remote -v)
+
+--) 
+
+
+
+
+
 
 
 

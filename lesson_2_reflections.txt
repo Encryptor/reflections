@@ -30,3 +30,5 @@ Clone - allows to pull down a repo locally without any connection to the origina
 
 Branch - a local copy of an entire repo. This is useful when I want to experiment or add a new feature to the repo without affecting the original repo.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+A. This allows for local repo to stay up to date and have all the changes that have been made by other contributors.
